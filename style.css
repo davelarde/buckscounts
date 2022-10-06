@@ -6,22 +6,29 @@
     extralightgreen #d4e9e2
     darkgreen #1e3932
 */
-* {
+/* * {
   color: #27251F;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: sans-serif; */
 
+
+body{
+  background-color: #1e3932;
 }
 
 /* your code */
-nav{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-}
-label{
+.container {
   display:flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  color: white;
+  font-size: 300%;
+   
 }
 
