@@ -10,6 +10,18 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+
 }
 
 /* your code */
+nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+label{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
