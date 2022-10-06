@@ -20,7 +20,7 @@ body{
 .container {
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
 }
 nav{
@@ -30,5 +30,35 @@ nav{
   color: white;
   font-size: 300%;
    
+}
+header{
+  display: flex;
+  flex-direction: row;
+  border : 1px solid black;
+  margin-left:  5%;
+  background-color: grey;
+  padding: 3%;
+  width: 84%;
+  height: 90%;
+  color: black;
+  font-size: 150%;
+
+  
+}
+.city-list{
+  display: flex;
+  flex-direction: column;
+  border: solid 3px white;
+  height: 40%;
+  margin: 5%;
+}
+.city-list > .city-item {
+  border:0px solid;
+  background-color:#00754a ;
+  margin: 1%;
+  padding: 1%;
+  text-align: right ;
+  color:black;
+  font-size: 150%;
 }
 
